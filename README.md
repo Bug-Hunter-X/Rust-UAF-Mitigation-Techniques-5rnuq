@@ -1,0 +1,3 @@
+# Use-After-Free Vulnerability in Rust
+
+This repository demonstrates a use-after-free vulnerability in Rust. This is a common and dangerous error when dealing with unsafe code or raw pointers. The original code attempts to modify the vector's contents via a raw pointer after the vector has been deallocated. The solution shows how to properly handle memory management in such situations, preventing this kind of error.  This example highlights the importance of careful memory management when using unsafe Rust features.
